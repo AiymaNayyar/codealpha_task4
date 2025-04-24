@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background:white;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .player {
+    background-color:white;
+    padding: 30px;
+    width: 320px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .info {
+    margin-bottom: 20px;
+  }
+  
+  #song-title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  #artist {
+    color: gray;
+    font-size: 16px;
+  }
+  
+  .controls button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #88c7e9;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: larger;
+  }
+  
+  .controls button:hover {
+    background-color: #204691;
+  }
+  
